@@ -1,1 +1,1 @@
-Cria-se um diretório .git, no qual serão inseridos os commits.
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece? A área de preparação difere-se do diretório de trabalho porque é nela que ficarão os arquivos que serão comitados ou confirmados. Esses, uma vez confirmados, irão para o repositório. O valor oferecido está relacionado à uma melhor organização lógica sobre os commits a serem realizados, separando os assuntos por sequência lógica.
