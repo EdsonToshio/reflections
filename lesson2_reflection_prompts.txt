@@ -1,1 +1,20 @@
-Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece? A área de preparação difere-se do diretório de trabalho porque é nela que ficarão os arquivos que serão comitados ou confirmados. Esses, uma vez confirmados, irão para o repositório. O valor oferecido está relacionado à uma melhor organização lógica sobre os commits a serem realizados, separando os assuntos por sequência lógica.
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece? 
+A área de preparação difere-se do diretório de trabalho porque é nela que ficarão os arquivos que serão comitados ou confirmados. Esses, uma vez confirmados, irão para o repositório. O valor oferecido está relacionado à uma melhor organização lógica sobre os commits a serem realizados, separando os assuntos por sequência lógica.
+
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica? 
+Utilizando o comando add para adicionar os arquivos específicos de cada alteração lógica e comitando-os depois.
+
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Podem ser úteis para criar novas versões do código, como algo experimental que, a princípio, não estará no código original. Isso tudo sem afetar o branch master ou outro que tenha sido criado. Um branch abrange todas as alterações (commits) realizadas no branch master, poupando retrabalho e permitindo a realização de diversos tipos de testes e inclusão de melhorias sem afetar diretamente o código original.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Mostrando quem é o pai de cada commit envolvido nos branches, auxiliando assim a entender a possibilidade ou não da recuperação de commits após algum checkout.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+O resultao da mesclagem é a união/fusão de todos os commits dos dois branches, tornando-os um só. A representação no diagrama serve para mostrar que, mesmo com a fusão, é possível saber quais são os commits envolvidos em cada branch anterior.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Prós: automatiza a tarefa, aumentando a produtividade.
+Contra: o Git não consegue fazer a mesclagem automática em todas as situações, pois dependendo do tipo de alterações efetuadas, fica inviável fazer com que a mesclagem seja realizada de forma automática. Nesses casos é necessário fazer tudo manualmente.
