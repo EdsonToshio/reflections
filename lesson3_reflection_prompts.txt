@@ -14,3 +14,6 @@ Bifurcações: utilizaria quando desejasse realizar alterações em arquivos nos
 Clones: utilizaria para copiar todo o código/arquivos presentes em um repositório no GitHub para o meu computador local.
 
 Branches: utiliaria para criar o meu código de produção (master), bem como outros específicos para experimentos, testes, correções de bugs, entre outros.
+
+Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+É o de poder ter acesso à última versão do código e conseguir trabalhar off-line nesse arquivo. Depois é possível realizar o merge, caso seja necessário ou simplesmente fazer o push para atualizar o remoto com as mesmas informações que estiverem armazenadas localmente.
